@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaart</title>
+    <link rel="stylesheet" href="pakket4.css">
+    <script src="pakket-1.js"></script>
+</head>
+<header>
+<nav class="navbar">
+    <div class="max-width">
+    <div class="logo">
+        <img href="#" src="images/logo.png" style="height: 70px;" alt="" >
+    </div>
+        <ul class="menu">
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">
+                    <strong>Home</strong></a></button>
+                    <div class="dropdown-content">
+                    <a href="#">Over ons</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                  <button class="dropbtn"><a href="#"><strong>Reizen</strong></a></button>
+                    <div class="dropdown-content">
+                      <a href="pakket-1en.html">Small pakket</a>
+                      <a href="#">Medium pakket</a>
+                      <a href="#">Large pakket</a>
+                      <a href="pakket-4.html">LOVE pakket</a>
+                    </div>
+                </div>
+            </li>
+          <li><a href="#"><strong>Contact</strong></a></li>   
+        </ul>
+            <div class="dropdown-content1">
+                <select class="selectpicker" data-width="fit" onchange="location = this.value;">
+                    <option value="pakket-4en.html">ENG</option>
+                    <option value="pakket-4.html">NL</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div id="titel">
+    <h1>❤tenerife❤</h1> 
+    </div>
+    <div id="container">
+        <div id="fototje">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="images/pool-kids-riu-buenavista-3_tcm58-240990.jpg">
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="images/restaurante-menu-riu-buenavista_tcm58-240682.jpg">
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/piscina-4-riu-buenavista_tcm58-240516.jpg">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10084;</a>
+                <a class="next" onclick="plusSlides(1)">&#10084;</a>
+              </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+        </div>
+        
+        <div id="infotext">
+            <h2><strong>
+                    a beautiful hotel in tenerife with 1 bedroom, a kingsize bed, a bathroom with a shower, a bath, a toilet and a sink. 
+                    there is a pool with jacuzzi on site, a gym with a lot of activities, there is also a wellness centre to cool down after a busy night full of love (; </h2>
+                </strong></h2>
+        </div>
+    </div>
+<div id="textinreis">
+    <div class="tab" id="tab1" onclick=
+        "document.getElementById('card1').style.display='block'">
+          <p><span class="color-red">❤</span>bestellen<span class="color-red">❤</span></p>
+    </div>
+    <div class="cards-container" id="card1" style="display: none;">
+        <div class="cards">
+            <div class="content-left">
+                <div class="x-icon" onclick=
+                    "document.getElementById('card1').style.display='none';">❤
+                </div>
+                <div class="parent">
+                    <div class="child"></div>
+                </div>
+            </div>
+                <div id="text in links">
+                    <h2> a beautiful hotel in tenerife with 1 bedroom, a kingsize bed, a bathroom with a shower, a bath, a toilet and a sink. 
+                        there is a pool with jacuzzi on site, a gym with a lot of activities, there is also a wellness centre to cool down after a busy night full of love (;</h2>
+                    <button id="bestelknop" onclick="window.location.href='pakket-1en.html'"> <h2><span class="color-red">❤</span>bestellen<span class="color-red">❤</span></h2></button>
+                    </div>
+                    <div class="content-right"></div>
+                </div>
+            </div>
+        </div>
+    <h2>meer liefde</h2></div>
+<div class="meer-reis">
+    <div><a href="packet 2.html"><img src="images/mallorca.jpg" alt=""></a></div>
+    <div><a href="packet 3.html"><img src="images/B57C257011AE0651CB364C4DAE1F2FC8.jpg" alt=""></a></div>
+    <div><a href="pakket-1en.html"><img src="images/pakket1.jpg" alt=""></a></div>
+</div>
+<script>plusSlides(0);</script>
+</body>
+</html>
