@@ -1,0 +1,16 @@
+.titel1{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    margin-left: -175%;
+    margin-bottom: 50%;
+    font-size: 160%;
+}
+.titel2{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    margin-left: -195%;
+    margin-bottom: 50%;
+    font-size: 160%;
+}
