@@ -1,0 +1,199 @@
+  /* ############# making of the basic html page  ############################*/
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+@media only screen and (max-width: 850px) {
+  .line-1 anim-typewriter {
+    font-size: 20vh;
+  }
+}
+
+
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-image: url("images/pictures.jpg");
+
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: #cccccc;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/* ############# ending of the basic html page  ############################*/
+
+
+
+
+
+
+/* ### ########## making the "how can we jovew you?" top text  ############################*/
+
+.maim .top {
+    /* background-color: green; */
+    /* margin-top: 5vh; */
+    /* height: 25vh; */
+    width: 60%;
+    padding-top: 20vh
+}
+
+
+.maim .top .typewriter{
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+}
+
+
+.line-1{
+    padding-top: 10%;
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    font-size: 4vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+
+/* ############# ending of the "how can we jove you?" top text  ############################*/
+
+.butoon {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.maim {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+.maim .flex1{
+    /* background-color: rebeccapurple; */
+    height: 55vh;
+    width: 40%;
+    margin-right: 10%;
+}
+
+
+
+
+
+/* ############# making of the send button ############################*/
+
+.butoon {
+ background-color: transparent;
+ border-style: none;
+}
+
+.maim .flex2 {
+    /* background-color: red; */
+    padding-top: 5vh;
+    height: 55vh;
+    width: 30%;
+}
+
+
+.maim .flex2 .contflex2 img{
+    min-height: 50%;
+    max-height: 50%;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contflex2:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+/* ############# making of the send button ############################*/
+
+
+
+
+
+
+/* ############# making of the input form  ############################*/
+
+
+.flex1{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 80%;
+    position: relative;
+}
+
+.flex1 input {
+    padding: 0.5%;
+    padding-left: 2%;
+    border-radius: 25px;
+    height: 20%;
+    margin-bottom: 3%;
+    width: 80%;
+    font-size: 4vh;
+    font-family: 'Anonymous Pro', monospace;
+    max-width: 80%;
+    max-height: 20%;
+}
+
+.flex1 textarea {
+    padding: 0.5%;
+    padding-left: 2%;
+    border-radius: 25px;
+    width: 100%;
+    height: 87%;
+    font-size: 4vh;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+/* ############# ending of the input form  ############################*/
+
+
+/* ############# making of the card popup  ############################*/
