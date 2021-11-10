@@ -1,0 +1,380 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* MAIN ---------------------------------------------------------------------------------------------------- */
+main{
+    background-color: lightpink;
+    padding-top: 8%;
+    height: 360vh;
+    width: 100%;
+}
+
+.content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inhoud{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+.afbeelding{
+    z-index: -100;
+    box-shadow: inset 0 -100px 36px -33px lightpink;
+    background-image: url(images/beach.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: right;
+}
+
+#quote{
+    font-size: 600%;
+    font-family: 'Ephesis', cursive;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.heartcontainer1{
+    display: flex;
+    align-items: center;
+}
+.heartcontainer2{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.heart1{
+    width: 130%;
+    fill: red;
+    /* position: relative;
+    bottom: 300px; */
+    animation: pulse 1s ease infinite;
+    cursor: pointer;
+    
+}
+/* .heart2{
+    width: 15%;
+    fill: red;
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    animation: pulse 1s ease infinite;
+    cursor: pointer;
+} */
+/* .heart2-2{
+    width: 14%;
+    fill: red;
+    position: relative;
+    bottom: 270px;
+    left: 58%;
+    float: right;
+    animation: pulse 1s ease infinite;
+    cursor: pointer;
+} */
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+.text{
+    font-size: larger;
+}
+
+.textright{
+    font-size: larger;
+    margin-right: 8%;
+}
+
+.titel1{
+    /* position: absolute;
+    top: 25%;
+    left: 1%; */
+    cursor: pointer;
+    color: white;
+    position: relative;
+    margin-left: -200%;
+    margin-bottom: 50%;
+    font-size: 160%;
+}
+.titel2{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    margin-left: -210%;
+    margin-bottom: 50%;
+    font-size: 160%;
+}
+
+.PAKKETEN{
+    /* position: relative; */
+    height: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textbox1{
+    height: 70%;
+    max-width: 1400px;
+    background-color: #ff777a;
+    /* margin-top: 2%;
+    margin-left: 300px; */
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    display: flex;
+}
+
+.textbox2{
+    min-height: 350px;
+    max-width: 1400px;
+    background-color: #ff777a;
+    margin-right: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* .textbox3{
+    min-height: 350px;
+    max-width: 1400px;
+    background-color: #ff777a;
+    margin-top: 12%;
+    margin-left: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+} */
+
+.text1{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.icons{
+    color: #ffffff;
+}
+
+.checked {
+    color: yellow;
+}
+
+.star-text{
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: xx-large;
+}
+
+.pricebutton{
+    background: #f99d1f;
+    height: 13%;
+    width: 20%;
+    border: 3px solid #F8950E;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 60%);
+    color: #FFFFFF;
+    position: relative;
+    left: 5%;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: start;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.price-detail{
+    font-size: x-large;
+}
+
+.pp{
+    color: #ffffff;
+    margin-left: 8%;
+    font-size: large;
+}
+
+/* SLIDESHOW ------------------------------------------------------------------------------------------------------ */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  /* margin-right: 12%; */
+  /* float: right; */
+}
+
+.mySlides {
+    height: 100%;
+}
+.mySlides img {
+    height: 100%;
+    object-fit: cover;
+    width: 500px;
+}
+
+
+.mySlides2 {
+    height: 100%;
+}
+.mySlides2 img {
+    height: 100%;
+    object-fit: cover;
+    width: 500px;
+}
+
+.mySlides3 {
+    height: 100%;
+}
+.mySlides3 img {
+    height: 100%;
+    object-fit: cover;
+    width: 500px;
+}
+
+.mySlides4 {
+    height: 100%;
+}
+.mySlides4 img {
+    height: 100%;
+    object-fit: cover;
+    width: 500px;
+}
+
+.pakketfoto1{
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.pakketfoto2{
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  float: right;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: red;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* MOBIEL------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 800px){
+    
+    main {
+        max-width: 100%;
+    }
+    
+    header {
+        max-width: 100%;
+    }
+    
+    #quote {
+        max-width: 100%;
+        font-size: 350%;
+        padding-top: 25%;
+    }
+    .textbox1 {
+        min-height: 85vh;
+        margin-left: 0;
+        flex-direction: column-reverse;
+    }
+    .textbox2 {
+        min-height: 85vh;
+        margin-left: 0;
+        flex-direction: column-reverse;
+    }
+    .text1 {
+        margin-bottom: 0;
+    }
+    .icons {
+        font-size: large;
+    }
+    .heartcontainer1 {
+        display: none;
+    }
+    .heartcontainer2 {
+        display: none;
+    }
+    .pricebutton {
+        width: 30%;
+    }
+    
+}
